@@ -1,0 +1,24 @@
+#### **2. `requirements.txt` 파일 내용**
+
+`README.md`의 2단계에서 사용할 파일입니다. Conda로 설치한 것을 제외한 나머지 라이브러리 목록입니다.
+
+```text
+# Machine Learning Models
+lightgbm
+xgboost
+
+# Deep Learning Framework
+torch
+transformers
+torch-geometric
+
+# Hyperparameter Tuning & Tracking
+optuna
+wandb
+
+# Model Interpretation
+shap
+
+# Utilities
+tqdm
+openpyxl
